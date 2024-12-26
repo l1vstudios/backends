@@ -72,9 +72,7 @@
         <nav class="navbar navbar-expand-sm navbar-default">
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
-                    </li>
+                 
                     <li class="menu-title">Layanan 1001 Cara</li><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Tools Dokumen</a>
@@ -95,7 +93,7 @@
                             <li><i class="fa fa-image"></i><a href="{{ url('/jpgpng') }}">JPG TO PNG</a></li>
                             <li><i class="fa fa-image"></i><a href="{{ url('/webppng') }}">PNG TO SVG</a></li>
                             <li><i class="fa fa-image"></i><a href="{{ url('/webppng') }}">WEBP TO PNG</a></li>
-                            <li><i class="fa fa-image"></i><a href="ui-tabs.html">WEBP TO JPG</a></li>
+                            <li><i class="fa fa-image"></i><a href="{{ url('/404') }}">WEBP TO JPG</a></li>
 
 
 
@@ -104,11 +102,11 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-code"></i>Fucking Code</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-code"></i><a href="tables-basic.html">Landing Page Generator</a></li>
-                            <li><i class="fa fa-code"></i><a href="tables-data.html">Company Profile Generator</a></li>
-                            <li><i class="fa fa-code"></i><a href="tables-data.html">HTML Minify</a></li>
-                            <li><i class="fa fa-code"></i><a href="tables-data.html">Obfuscator PHP</a></li>
-                            <li><i class="fa fa-code"></i><a href="tables-data.html">Obfuscator HTML</a></li>
+                            <li><i class="fa fa-code"></i><a href="{{ url('/404') }}">Landing Page Generator</a></li>
+                            <li><i class="fa fa-code"></i><a href="{{ url('/404') }}">Company Profile Generator</a></li>
+                            <li><i class="fa fa-code"></i><a href="{{ url('/404') }}">HTML Minify</a></li>
+                            <li><i class="fa fa-code"></i><a href="{{ url('/404') }}">Obfuscator PHP</a></li>
+                            <li><i class="fa fa-code"></i><a href="{{ url('/404') }}">Obfuscator HTML</a></li>
 
 
                         </ul>
@@ -116,20 +114,20 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Sosial</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-heart"></i><a href="forms-basic.html">Undangan Pernikahan</a></li>
-                            <li><i class="menu-icon fa fa-heart"></i><a href="forms-advanced.html">Undangan Ulang Tahun</a></li>
-                             <li><i class="menu-icon fa fa-paperclip"></i><a href="forms-advanced.html">Kartunama Generator</a></li>
+                            <li><i class="menu-icon fa fa-heart"></i><a href="{{ url('/404') }}">Undangan Pernikahan</a></li>
+                            <li><i class="menu-icon fa fa-heart"></i><a href="{{ url('/404') }}">Undangan Ulang Tahun</a></li>
+                             <li><i class="menu-icon fa fa-paperclip"></i><a href="{{ url('/404') }}">Kartunama Generator</a></li>
                         </ul>
                     </li>
                      <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-code"></i>Hash</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-code"></i><a href="forms-basic.html">MD5 Decrypt</a></li>
-                            <li><i class="menu-icon fa fa-code"></i><a href="forms-advanced.html">MD5 Encrypt</a></li>
-                             <li><i class="menu-icon fa fa-code"></i><a href="forms-advanced.html">Bcrypt Generator</a></li>
+                            <li><i class="menu-icon fa fa-code"></i><a href="{{ url('/404') }}">MD5 Decrypt</a></li>
+                            <li><i class="menu-icon fa fa-code"></i><a href="{{ url('/404') }}">MD5 Encrypt</a></li>
+                             <li><i class="menu-icon fa fa-code"></i><a href="{{ url('/404') }}">Bcrypt Generator</a></li>
 
-                            <li><i class="menu-icon fa fa-code"></i><a href="forms-basic.html">SHA256 Decrypt</a></li>
-                            <li><i class="menu-icon fa fa-code"></i><a href="forms-basic.html">SHA256 Encrypt</a></li>
+                            <li><i class="menu-icon fa fa-code"></i><a href="{{ url('/404') }}">SHA256 Decrypt</a></li>
+                            <li><i class="menu-icon fa fa-code"></i><a href="{{ url('/404') }}">SHA256 Encrypt</a></li>
 
 
                         </ul>
@@ -138,10 +136,10 @@
                     <li class="menu-title">Support</li><!-- /.menu-title -->
 
                      <li>
-                        <a href="widgets.html"> <i class="menu-icon ti-support"></i>Donasi </a>
+                        <a href="{{ url('/404') }}"> <i class="menu-icon ti-support"></i>Donasi </a>
                     </li>
                     <li>
-                        <a href="widgets.html"> <i class="menu-icon ti-envelope"></i>Laporkan BUG </a>
+                        <a href="{{ url('/404') }}"> <i class="menu-icon ti-envelope"></i>Laporkan BUG </a>
                     </li>
 
             </div><!-- /.navbar-collapse -->

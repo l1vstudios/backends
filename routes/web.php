@@ -44,6 +44,11 @@ Route::get('/webppng', function () {
     return view('components/webptopng');
 });
 
+
+Route::get('/404', function () {
+    return view('404');
+});
+
 //ACTION KONVERT DOKUMEN
 Route::post('/convert-pdf-to-word', [CodepenaController::class, 'pdftoword'])->name('convert.pdf-to-word');
 Route::post('/convert-word-to-pdf', [CodepenaController::class, 'wordtopdf'])->name('convert.word-to-pdf');

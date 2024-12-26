@@ -58,7 +58,7 @@
                         </div>
 
                         <div class="card-body">
-                            <form action="{{ route('convert.jpg-to-png') }}" class="dropzone" id="jpg-upload" method="POST" enctype="multipart/form-data">
+                            <form action="" class="dropzone" id="jpg-upload" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="dz-message">
                                     <span>Drag and drop your JPG file here or click to select a file</span>
